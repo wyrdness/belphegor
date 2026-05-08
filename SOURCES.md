@@ -1,36 +1,18 @@
-# Belphegor - Source Documentation
+# Sources & References — Belphegor
 
-## Overview
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-This document provides comprehensive source documentation for Belphegor. The entry includes 58+ sources from academic, historical, cultural, and research contexts.
+## Books
 
-## Source Categories
+- Peter Binsfeld. (1589). *Tractatus de confessionibus maleficorum et sagarum*
+- Niccolò Machiavelli. (1549). *Belfagor arcidiavolo*
+- Jacques Collin de Plancy. (1818). *Dictionnaire infernal*
+- Jeffrey Burton Russell. (1984). *Lucifer: The Devil in the Middle Ages*. Cornell University Press. ISBN: 978-0801494291
 
-### Primary Sources
-- Original texts and historical documents
-- Religious texts and manuscripts
-- Cultural repositories and oral traditions
+## Websites
 
-### Academic Sources
-- Peer-reviewed research
-- University press publications
-- Scholarly monographs
-
-### Cultural Resources
-- Indigenous knowledge keepers
-- Cultural organizations
-- Community documentation
-
-### Contemporary Research
-- Modern investigations
-- Digital archives
-- Ongoing scholarly work
-
-## Full Bibliography
-
-[Detailed sources listed in main README.md file]
+- *Belphegor*. Wikipedia. <https://en.wikipedia.org/wiki/Belphegor>
+- *Classification of demons*. Wikipedia. <https://en.wikipedia.org/wiki/Classification_of_demons>
 
 ---
-
-*Last Updated: 2026-01-14*  
-*Version: 1.0.0*
+_Auto-generated from `api.json`._

@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/belphegor",
     "maintainers": [
       {
@@ -16,72 +16,132 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "belphegor",
     "name": "Belphegor",
-    "aliases": [],
-    "category": "|_DEMON_ANGEL_|",
-    "subcategory": "Unknown",
+    "aliases": [
+      { "name": "Baal-Peor (בַּעַל פְּעוֹר)", "language": "Biblical Hebrew", "region": "Moab", "meaning": "Lord of Peor (a place name)" },
+      { "name": "Belphégor", "language": "French" },
+      { "name": "Belfagor", "language": "Italian" }
+    ],
+    "category": "DEMON_ANGEL",
+    "subcategory": "Demon of sloth / prince of Hell",
     "tags": [
-      "folklore",
-      "mythology"
+      "demon",
+      "biblical",
+      "moabite",
+      "sloth",
+      "demonology",
+      "seven-princes-of-hell",
+      "abrahamic",
+      "early-modern"
     ],
     "status": "documented",
     "description": {
-      "summary": "Belphegor (also Baal-Peor) is a demon associated with the deadly sin of **sloth**, as well as inventions, discoveries, and wealth.",
-      "full": "Belphegor (also Baal-Peor) is a demon associated with the deadly sin of **sloth**, as well as inventions, discoveries, and wealth. Originally **Baal-Peor**, a Moabite god mentioned in the Hebrew Bible (Numbers 25), later demonization transformed him into Belphegor, one of the **seven princes of Hell** corresponding to the seven deadly sins. In medieval Christian demonology, Belphegor is Hell's ambassador to France (in some traditions), and he tempts people through **laziness, apathy, and ingenious inventions** that promote comfort over virtue. He also has associations with **discord in marriages** and seduction through promises of wealth or easy solutions. An odd folkloric tradition claims Belphegor appears on toilets (relating to his association with bodily laziness and impropriety), though this is likely medieval crude humor. In occult tradition, he may reveal discoveries and inventions to magicians who summon him properly."
+      "summary": "A demon in Christian demonology, derived from the Moabite god Baal-Peor of the Hebrew Bible. In Peter Binsfeld's 1589 classification he is the prince of sloth, and one of the seven princes of Hell.",
+      "full": "Belphegor is a major demon in Christian demonology, derived from the Hebrew Bible's Baal-Peor (בַּעַל פְּעוֹר), a Moabite deity worshipped on Mount Peor in Numbers 25:1–5 and condemned in Hosea 9:10 and Psalm 106:28. The English form Belphegor reaches us through Latin Belphegor / Beelphegor and entered demonological literature through medieval and early-modern grimoires. Peter Binsfeld's Tractatus de confessionibus maleficorum et sagarum (1589) names Belphegor the chief demon of sloth (acedia) in the seven-deadly-sins / seven-princes-of-Hell schema. In the slightly earlier Lanterne of Light (a 15th-century English Lollard text), he is paired with gluttony rather than sloth. Jacques Collin de Plancy's Dictionnaire infernal (1818, illustrated 1863) calls him Hell's ambassador to France, makes Mary Magdalene his enemy, and depicts him as a horned, bearded male figure or, in a separate tradition, as a woman. Niccolò Machiavelli's novella The Story of Belfagor the Archdevil (Belfagor arcidiavolo, c. 1518–1527) sends Belphegor to Earth to investigate marriage; Pierre de Larivey adapted the story in 1607. The 1965 French novel and 1965 ORTF television series Belphégor, le fantôme du Louvre revived the figure in modern popular culture."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Hebrew Baʿal-Pəʿôr (בַּעַל-פְּעוֹר), 'Lord of Peor' — Peor being a place in Moab where this deity was worshipped (Num 25). Latinized in late antiquity and the Middle Ages as Belphegor.",
+      "meaning": "Literally 'Lord of (the place) Peor'. Some demonological writers (including the modern Wikipedia gloss) translate Pəʿôr as 'gap', yielding 'Lord of the Gap', but this gloss is not universally accepted in biblical scholarship.",
+      "first_use": "13th century BCE setting in the Hebrew Bible (Num 25); demon-name in Latin Christian sources from the early modern period; foregrounded in Peter Binsfeld's 1589 demon classification"
     }
   },
+
   "classification": {
     "taxonomy": {
-      "category": "|_DEMON_ANGEL_|",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "DEMON_ANGEL",
+      "type": "Demon",
+      "subtype": "Prince of Hell / demon of sloth",
+      "variant": "Christian demonology, post-biblical"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "beelzebub", "name": "Beelzebub", "relationship": "similar", "description": "Other major demon-prince derived from a biblical foreign deity (Philistine Baʿal Zəvuv)" },
+      { "id": "belial", "name": "Belial", "relationship": "similar", "description": "Other major demon-prince in Jewish-Christian tradition" },
+      { "id": "asmodeus", "name": "Asmodeus", "relationship": "similar", "description": "Demon assigned to lust in Binsfeld's seven-princes schema" },
+      { "id": "lucifer", "name": "Lucifer", "relationship": "similar", "description": "Demon assigned to pride in the Binsfeld schema" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Horned, bearded male", "description": "Collin de Plancy's Dictionnaire infernal (illustrated edition, 1863) depicts Belphegor as a horned, bearded man enthroned on a chamberpot — a satirical motif tied to his cult", "frequency": "common" },
+        { "feature": "Female form (alternate)", "description": "Some traditions depict Belphegor as a beautiful woman, the form he is said to take when he appears to humans", "frequency": "occasional" }
+      ],
+      "morphology": "No fixed canonical form. Iconography divides between the horned demon-king of Collin de Plancy and a female form found in older demonological lore."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Tempting toward sloth", "description": "In Binsfeld's classification, Belphegor's specific role is to tempt humans into laziness, apathy and acedia", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Inspiring inventions", "description": "Some demonological writers say he tempts humans by suggesting wealth-bringing inventions", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Disclosing future events", "description": "In some early-modern sources he reveals secrets and helps make discoveries", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "neutral",
+      "social_structure": "solitary",
+      "habitat_preference": ["Mount Peor (origin)", "the underworld", "places of idolatry"],
+      "patterns": [
+        "Tempts through ease, wealth, and laziness",
+        "Cited as Hell's ambassador to France in 19th-century demonology",
+        "Powers reputedly strongest in April"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Originating in the Moabite cult of Baal-Peor in the Hebrew Bible. Developed as a named demon in medieval and early modern Christian demonology, especially in Latin, French, and Italian sources.",
+      "continents": ["Asia", "Europe", "Africa", "Americas"],
+      "countries": ["Moab (origin, modern Jordan)", "Worldwide in Christian and esoteric demonology"],
+      "regions": ["Moab (origin)", "Latin Christendom", "Western esoteric tradition"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Mount Peor (Moab)",
+        "location": {
+          "description": "Mount Peor in ancient Moab, east of the Jordan River",
+          "country": "Jordan",
+          "region": "Moab",
+          "coordinates": { "latitude": 31.78, "longitude": 35.70 }
+        },
+        "peak_period": "Iron Age I",
+        "notes": "Cult site of Baal-Peor mentioned in Numbers 25; etymological origin of Belphegor"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 13th–10th c. BCE (narrative setting)",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Hebrew Bible, Numbers 25:1–5; Hosea 9:10; Psalm 106:28"
+      },
+      "peak_activity_periods": [
+        { "period": "16th–17th c.", "description": "Christian demonological systematization (Binsfeld 1589) and Machiavelli's Belfagor arcidiavolo" },
+        { "period": "19th c.", "description": "Collin de Plancy's Dictionnaire infernal (1818, ill. 1863) standardizes the iconography" },
+        { "period": "20th c.", "description": "Belphégor as Phantom of the Louvre in Arthur Bernède's 1927 novel and the 1965 ORTF television series" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Moabite religion (Baal-Peor) reinterpreted by Hebrew tradition as a foreign idol and (in later Christian readings) as a demon.",
+      "earliest_accounts": "Hebrew Bible, Numbers 25:1–5 (incident at Shittim where Israelites worship Baal-Peor) and parallels in Hosea and Psalms.",
+      "folklore_connections": "Part of the medieval Christian conversion of foreign biblical gods into demons (Beelzebub, Belphegor, Dagon, Astaroth)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "c. 13th–10th c. BCE", "event": "Israelites at Shittim worship Baal-Peor (Numbers 25)", "significance": "Biblical origin of the figure", "source": "Numbers 25:1–5" },
+      { "date": "c. 1518–1527", "event": "Niccolò Machiavelli writes Belfagor arcidiavolo (publ. posth. 1549), a comic novella in which Belphegor is sent to Earth to investigate human marriage", "significance": "First major literary treatment of Belphegor", "source": "Machiavelli, Belfagor arcidiavolo (1549)" },
+      { "date": "1589", "event": "Peter Binsfeld classifies Belphegor as the demon of sloth in the seven-princes-of-Hell schema", "significance": "Crystallizes the deadly-sin assignment", "source": "Binsfeld, Tractatus de confessionibus maleficorum et sagarum (1589)" },
+      { "date": "1818", "event": "Jacques Collin de Plancy publishes Dictionnaire infernal, with Belphegor as Hell's ambassador to France", "significance": "Standardizes 19th-century French demonological image", "source": "Collin de Plancy, Dictionnaire infernal (1818)" },
+      { "date": "1863", "event": "Illustrated edition of Dictionnaire infernal includes the famous horned-Belphegor woodcut by Louis Le Breton", "significance": "Most-reproduced visual image of Belphegor", "source": "Le Breton illustration (1863)" },
+      { "date": "1927", "event": "Arthur Bernède's novel Belphégor, le fantôme du Louvre", "significance": "20th-century repositioning of the figure as a popular phantom", "source": "Bernède, A. (1927)" },
+      { "date": "1965", "event": "Belphégor, le fantôme du Louvre television series airs on ORTF (France); a 2001 film remake follows", "significance": "Cements Belphegor in modern French popular culture", "source": "ORTF (1965)" }
+    ],
+    "modern_era": "Belphegor is best known today through Collin de Plancy's iconography, Machiavelli's novella, the Belphégor of the Louvre tradition, and as a recurring figure in fantasy and horror media. He is also referenced in popular economics as 'the Belphegor prime' (1000000000000066600000000000001), so named because of its embedded sequence of digits."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
@@ -92,35 +152,126 @@
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "belphegor-evidence-numbers-25",
+        "type": "biblical text",
+        "name": "Numbers 25:1–5",
+        "date": "c. 5th c. BCE (final redaction)",
+        "description": "Account of Israelites at Shittim worshipping Baal-Peor; etymological origin of Belphegor.",
+        "status": "verified",
+        "analysis": "The biblical incident at Shittim provides the demon's name and theological backdrop.",
+        "source": "Hebrew Bible, Numbers 25:1–5"
+      },
+      {
+        "id": "belphegor-evidence-binsfeld-1589",
+        "type": "treatise",
+        "name": "Peter Binsfeld, Tractatus de confessionibus maleficorum et sagarum (1589)",
+        "date": "1589",
+        "description": "Demonological treatise classifying Belphegor as the prince of sloth in the seven-princes-of-Hell schema.",
+        "status": "verified",
+        "analysis": "Standard reference for the deadly-sin / demon mapping repeated across early modern demonologies.",
+        "source": "Binsfeld, P. (1589)"
+      },
+      {
+        "id": "belphegor-evidence-de-plancy",
+        "type": "encyclopedia",
+        "name": "Jacques Collin de Plancy, Dictionnaire infernal",
+        "date": "1818 (1863 illustrated)",
+        "description": "Major 19th-century compendium of demons; entry on Belphegor with the Le Breton woodcut.",
+        "status": "verified",
+        "analysis": "Source of the most widely reproduced modern image of Belphegor.",
+        "source": "Collin de Plancy (1818, ill. 1863)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Demon of sloth",
+        "description": "Belphegor is a real spiritual being who tempts humans to acedia / sloth, one of the seven princes of Hell.",
+        "proponents": ["Peter Binsfeld (1589)", "Jacques Collin de Plancy (1818)"],
+        "evidence_cited": ["Demonological systematization", "Biblical inheritance from Baal-Peor"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Demonization of a Moabite deity",
+        "description": "Modern biblical scholarship treats Belphegor as a Christian demonization of the Moabite deity Baal-Peor, following the standard pattern of converting rival biblical gods into demons.",
+        "proponents": ["Mainstream biblical scholars"],
+        "evidence_cited": ["Numbers 25 cultic context", "Wider biblical pattern (Beelzebub, Astarte→Astaroth)"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Literary and theological construct",
+        "description": "Belphegor is a literary and demonological construct without empirical referent; a useful figure for moral, narrative, and esoteric purposes rather than a phenomenon to be investigated.",
+        "proponents": ["Modern religious-studies scholars"],
+        "evidence_cited": ["Continuous reinvention from Numbers 25 to Machiavelli to modern pop culture"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Christian demonology (medieval to early modern)",
+        "French popular tradition (Belphégor of the Louvre)",
+        "Italian Renaissance literary tradition (Machiavelli, Belfagor)"
+      ],
+      "stories": [
+        "Israelites at Shittim worshipping Baal-Peor (Num 25)",
+        "Machiavelli's Belfagor sent to Earth to test marriage",
+        "Belphégor haunting the Louvre"
+      ],
+      "beliefs": "In Christian demonology, Belphegor presides over sloth; in French popular tradition, he is a romantic phantom of Paris; in early-modern Italian comedy, a fish-out-of-water archdevil unable to survive marriage."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Niccolò Machiavelli, Belfagor arcidiavolo (publ. 1549)",
+        "Pierre de Larivey, Le Fidelle (1611) — adaptation",
+        "John Wilson, Belphegor, or, the Marriage of the Devil (1691)",
+        "Arthur Bernède, Belphégor, le fantôme du Louvre (1927)",
+        "Eric Frank Russell, Sinister Barrier (1939) — references"
+      ],
+      "film_tv": [
+        "Belphégor, le fantôme du Louvre (ORTF television series, 1965; 2001 film)",
+        "Belphegor: Phantom of the Louvre (2001, Jean-Paul Salomé)"
+      ],
+      "games": [
+        "Shin Megami Tensei series (Atlus)",
+        "Final Fantasy XI (Square Enix) — Belphegor as boss",
+        "Helltaker (2020)"
+      ],
+      "other": [
+        "Le Breton illustration (1863) widely reproduced in occult and pop culture",
+        "'Belphegor's prime' (1000000000000066600000000000001), a notable prime number"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Jeffrey Burton Russell", "affiliation": "University of California, Santa Barbara (history)", "contribution": "Multi-volume scholarly history of the Devil and demons in Western culture", "period": "1970s–1990s" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Belphegor is studied within biblical reception history, the history of Christian demonology, and the literary history of the Renaissance comic devil tradition."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wiki-belphegor", "type": "website", "title": "Belphegor", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Belphegor", "accessed": "2026-05-07" },
+    { "id": "wiki-classification-demons", "type": "website", "title": "Classification of demons", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Classification_of_demons", "accessed": "2026-05-07" },
+    { "id": "binsfeld-1589-belphegor", "type": "book", "title": "Tractatus de confessionibus maleficorum et sagarum", "authors": ["Peter Binsfeld"], "date": "1589" },
+    { "id": "machiavelli-belfagor", "type": "book", "title": "Belfagor arcidiavolo", "authors": ["Niccolò Machiavelli"], "date": "1549" },
+    { "id": "de-plancy-1818-belphegor", "type": "book", "title": "Dictionnaire infernal", "authors": ["Jacques Collin de Plancy"], "date": "1818" },
+    { "id": "russell-1984-lucifer", "type": "book", "title": "Lucifer: The Devil in the Middle Ages", "authors": ["Jeffrey Burton Russell"], "publication": "Cornell University Press", "date": "1984", "isbn": "978-0801494291" }
+  ]
 }
